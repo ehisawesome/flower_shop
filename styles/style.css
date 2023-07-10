@@ -104,3 +104,19 @@ body{
     text-decoration: underline;
   }
 
+/* Delivery Section */
+
+.delivery{
+    width: 80%;
+    height: 320px;
+    flex-shrink: 0;
+    border-radius: 8px;
+    background: rgba(39, 39, 39, 0.05);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+}
+.devlivery-section{
+    text-align: center;
+}

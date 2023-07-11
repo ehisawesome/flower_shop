@@ -153,9 +153,7 @@ body{
   line-height: normal;
 }
 /* Insta Section */
-.insta-section{
-  padding-bottom: 30px;
-}
+
 
 .insta-img{
   display: flex;
@@ -183,4 +181,53 @@ body{
 }
 .btn-submit{
   border-radius: 0px 5px 5px 0px;
+}
+/* Footer */
+
+footer{
+  background-color: black;
+  padding-bottom: 80px;
+  margin-top: 60px;
+}
+.footer-title{
+  color: white;
+}
+.final-title{
+  color: #E55473;
+}
+
+.footer-desc{
+  color: white;
+}
+
+.copyright{
+  color: rgba(255, 255, 255, 0.40);
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: normal;
+
+}
+
+/* Blog Posts */
+.blog-post{
+  margin-bottom: 70px;
+}
+.blog-info{
+  padding-bottom: 20px;
+}
+
+.blog-post img{
+  height: 300px;
+  width: 300px;
+}
+.blog-post h4{
+  text-align: center;
+}
+
+.blogs-posts{
+  display: flex;
+  justify-content: space-between;
+  width: 80%;
+  margin: 0 auto;
 }

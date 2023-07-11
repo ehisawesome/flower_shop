@@ -132,7 +132,7 @@ body{
   align-items: center;
   height: 620px;
   background: rgba(229, 84, 115, 0.05);
-  margin: 80px 0px;
+  margin: 80px 0px 0px 0px;
 }
 
 .offer-text{
@@ -152,4 +152,35 @@ body{
   font-weight: 800;
   line-height: normal;
 }
+/* Insta Section */
+.insta-section{
+  padding-bottom: 30px;
+}
 
+.insta-img{
+  display: flex;
+  justify-content: space-between;
+  padding: 0% 10%;
+  margin: 30px 0px;
+}
+
+/* Latest Deals */
+
+.latest-deals{
+  width: 80%;
+  margin: 0 auto;
+  background-image: url(../img/Rectangle\ 9.png);
+}
+.latest-form{
+  padding-bottom: 60px ;
+  display: flex;
+  justify-content: center;
+}
+.email-submit{
+  width: 400px;
+  height: 40px;
+  padding: 10px;
+}
+.btn-submit{
+  border-radius: 0px 5px 5px 0px;
+}
